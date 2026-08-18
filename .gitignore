@@ -1,0 +1,5 @@
+```bash
+
+.venv/
+_pycache_/
+.env
