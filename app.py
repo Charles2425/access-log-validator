@@ -6,3 +6,10 @@ def validate_access(is_active):
     return "access denied"
 
 print(validate_access(True))
+
+def summarize_event(username, is_active):
+    status = validate_access(is_active)
+    return f"{username}: {status}"
+
+print(validate_access(True))
+Print(summarize_event("Prince", True))
