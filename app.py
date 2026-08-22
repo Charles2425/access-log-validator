@@ -12,8 +12,4 @@ def summarize_event(username, is_active):
     return f"{username}: {status}"
 
 print(validate_access(True))
-<<<<<<< HEAD
 print(summarize_event("Prince", True))
-=======
-print(summarize_event("Prince", True))
->>>>>>> 5cdc73f (add summary output)
